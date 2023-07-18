@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200&family=Rubik:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0px;
+  background: linear-gradient(to right, #2f1f6f, #0d023afb);
+  height: 100vh;
+  /* width: 100vw; */
+  /* overflow-x: hidden; */
+  transition: 0.9s ease-in-out;
+  font-family: "Lato", sans-serif;
+  /* mix-blend-mode: exclusion; */
+}
+
+span {
+  font-weight: 800;
+  border-image-source: linear-gradient(to right, #2f1f6f, #dd00b8);
+  transform: skew(-14deg);
+  background: -webkit-linear-gradient(20deg, #4a21ee, #dd00b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

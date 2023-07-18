@@ -1,0 +1,64 @@
+.sidebar_links_wrapper {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 0px;
+  height: 100vh;
+  padding: 1.7rem;
+  background: linear-gradient(to right, #2f1f6f, #0d023afb);
+}
+
+.toggle_icon {
+  transition: 0.5s ease-in-out;
+  float: right;
+  font-size: larger;
+  cursor: pointer;
+  padding: 0.4rem;
+}
+
+.toggle_icon:hover {
+  background-color: rgb(175, 172, 172);
+  border-radius: 100%;
+  transform:rotate(180deg);
+}
+
+.openBar {
+  margin-top: 0.5rem;
+  margin-right: -0.8rem;
+}
+
+.openBar:hover {
+  margin-top: 0.5rem;
+  margin-right: -0.8rem;
+}
+
+.closeBar {
+  margin-right: -0.7rem;
+  margin-top: -0.7rem;
+}
+
+.sidebar_links {
+  margin-left: -2rem;
+  font-size: large;
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+}
+
+li, .product {
+  list-style-type: none;
+  font-size: large;
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+}
+
+li:hover, .product:hover {
+  background-color: #391dac;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}

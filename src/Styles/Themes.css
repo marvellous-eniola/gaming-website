@@ -1,0 +1,59 @@
+.theme {
+  text-align: center;
+  font-size: larger;
+  color: #fff;
+}
+
+.directions {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.left {
+  margin-top: -13rem;
+  cursor: pointer;
+  position: absolute;
+  left: 20px;
+}
+
+.right {
+  cursor: pointer;
+  margin-top: -13rem;
+  position: absolute;
+  right: 20px;
+}
+
+.theme_button_wrapper button {
+  padding: 0.5rem 1rem;
+  margin: 25px 10px;
+}
+
+.theme_button_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.theme_buy_now {
+  background: linear-gradient(to right, #461ceb, #d393c8, #dd00b8);
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  border: 0;
+  color: #fff;
+  transform: skew(-14deg);
+}
+
+.theme_play_now {
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  border-image-slice: 1;
+  background-color: transparent;
+  color: #fff;
+  border-image-source: linear-gradient(to right, #2f1f6f, #dd00b8);
+  transform: skew(-14deg);
+  background: -webkit-linear-gradient(20deg, #4a21ee, #dd00b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

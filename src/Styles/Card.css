@@ -1,0 +1,80 @@
+.cards_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card_wrapper {
+  border-radius: 10px;
+  margin: 7px;
+  padding: 10px;
+  /* background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.084) 0%,
+    rgba(217, 217, 217, 0.042) 100%
+  ); */
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.084) 0%,
+    rgba(217, 217, 217, 0.042) 100%
+  );
+  backdrop-filter: blur(30px);
+  border-radius: 10px;
+}
+
+.card_name {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_img {
+  height: 150px;
+}
+
+.avatar_user_wrapper {
+  display: flex;
+}
+
+.avatar_user_wrapper .user_name {
+  margin-left: 0.8rem;
+  margin-bottom: -1rem;
+}
+
+.avatar_user_wrapper .company {
+  margin-left: 0.8rem;
+  max-width: 120px;
+}
+
+.card_button_wrapper button {
+  padding: 1rem 3.5rem;
+  margin: 0.7rem 0px;
+}
+
+.card_button_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card_buy_now {
+  background: linear-gradient(to right, #461ceb, #d393c8, #dd00b8);
+  font-weight: 800;
+  font-size: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border: 0;
+  color: #fff;
+  transform: skew(-14deg);
+}
+
+.card_games_wrapper {
+  margin: 4rem 0.5rem;
+  color: #000;
+  width: auto;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 900px) {
+  .card_games_wrapper {
+    font-size: small;
+  }
+}

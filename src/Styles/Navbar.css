@@ -1,0 +1,57 @@
+.nav_links_flex {
+  color: #fff;
+  display: flex;
+  margin: 0.5rem 1.5rem;
+  justify-content: space-between;
+}
+
+.sidebar {
+  display: none;
+}
+
+.nav_logo_wrapper {
+  display: flex;
+}
+
+.nav_logo_wrapper h2 {
+  padding: 0rem 0.8rem;
+  cursor: pointer;
+}
+
+.nav_links {
+  margin-top: 0.5rem;
+  display: flex;
+}
+
+.nav_links p {
+  padding: 0.09rem 0.5rem;
+  cursor: pointer;
+}
+
+.bag_icon img {
+  margin-top: 0.4rem;
+}
+
+.closeSideBar {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .closeSideBar {
+    display: block;
+  }
+
+  .nav_links,
+  .bag_icon {
+    display: none;
+  }
+
+  .nav_logo_wrapper h2 {
+    padding-top: 0.7rem;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    display: block;
+  }
+}

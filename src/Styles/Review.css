@@ -1,0 +1,127 @@
+.review_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.star_tag_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tags img {
+  height: 70px;
+  width: 30px;
+  margin-top: -5rem;
+}
+
+.tag_img {
+  margin: 0.1rem;
+}
+
+.user_review_wrapper {
+  background-color: rgba(238, 228, 228, 0.062);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.review_user_info {
+  display: flex;
+  flex-direction: row;
+}
+
+.review_user_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback {
+  max-width: 270px;
+  border-bottom: 1.7px solid rgba(231, 221, 221, 0.39);
+}
+
+.radio {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 10px;
+}
+
+.circle {
+  margin: auto 10px;
+  color: #fff;
+}
+
+.circle .mid {
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #2f1f6f, #dd00b8);
+  background: -webkit-linear-gradient(20deg, #4a21ee, #dd00b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h5 {
+  font-size: xx-large;
+  padding: 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 530px) {
+  .review_wrapper {
+    display: flex;
+    font-size: smaller;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .star_tag_wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tags img {
+    height: 70px;
+    width: 30px;
+    margin-top: -3rem;
+  }
+
+  .tag_img {
+    margin: 0.1rem;
+  }
+
+  .user_review_wrapper {
+    background-color: rgba(238, 228, 228, 0.062);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .review_user_info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .review_user_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .feedback {
+    max-width: 270px;
+    border-bottom: 1.7px solid rgba(231, 221, 221, 0.39);
+  }
+
+  .circle .mid {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #2f1f6f, #dd00b8);
+    background: -webkit-linear-gradient(20deg, #4a21ee, #dd00b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h5 {
+    font-size: xx-large;
+    padding: 20px;
+    color: #fff;
+  }
+}
